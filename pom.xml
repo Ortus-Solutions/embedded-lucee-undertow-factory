@@ -65,7 +65,7 @@
 	            <artifactId>maven-antrun-plugin</artifactId>
 	            <configuration>
 	                <tasks>
-	                    <copy file="target/locee-undertow-server-factory-1.0.0-jar-with-dependencies.jar" tofile="target/jars/embedded-lucee-undertow-factory-1.0.0.jar" />
+	                    <copy file="target/locee-undertow-server-factory-1.0.0-jar-with-dependencies.jar" tofile="artifacts/embedded-lucee-undertow-factory-1.0.0.jar" />
 	                </tasks>
 	            </configuration>
 	            <executions>

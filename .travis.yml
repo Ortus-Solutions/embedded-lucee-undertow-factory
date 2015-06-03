@@ -6,8 +6,8 @@ deploy:
   secret_access_key:
     secure: iiz4KOo0gm5R987wFY4Hg5lhnEtOsVYzs5RMhuelPaeYFFpLPm0nsHRXsDJ8PQHE7z8FGoFAQ3mPtU7j+4MNJnH/djxan+vq2rby0aGAki9ESOr/LmpH50384vFQw00vQOMKae5Yy9tJoyQmkIbbJcsgY+uoHZP9md3QstG/whPBk3Wez5SeGzOl3iE9EJbPDJa3WifvK56L6PVwo/JRFgUr/HkJihvTab6OsicNKHmVslogGEX+Linj7QdW1SV4CtFy8qFRdRPYn1z55rlrg98+22MJrFOgSm6VrwvUh/slbVHnccl8zAhWtnZQpXvPwZFuASuRaLoOxrqmTkTpPjsu0BnPBDK83kzIHzaZvsv1zM9djOsRau/u0tmZN7HIWgAHGxEAPs4JosJtZNdnwfK2FRy4Yz2BcKF/gskQ3krXZiRz4ZKjgdNP/hv+/7CQlePqxBqxrXAzIVwv04HA/eOOIpLsCtJvO1A12ctXGDM/NjFqrsQNd2KWyUVgS3BzmJblFPmMP1AN+bWb3OqIqPSUAyRhAUKXJPpJtMQzIv+tdYuaQ/PEHXcnRbJXic0HfCE3QAXK9kjVsLT3BAUD/eugRTsNwiMXWtiMzX/XtkDn1fleRhPchvIQ6qmJJTJxfqY0zmrdHMktMoV7Kd8hM4YcAumuYwPr+ljKdggHcCU=
   bucket: downloads.domwatson.codes
-  local-dir: "target/jars/"
-  upload-dir: "embedded-lucee-undertow-factory"
+  local-dir: target/jars
+  upload-dir: embedded-lucee-undertow-factory
   acl: public_read
   on:
     repo: DominicWatson/embedded-lucee-undertow-factory

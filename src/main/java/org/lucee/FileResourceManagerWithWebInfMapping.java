@@ -1,4 +1,4 @@
-package org.locee;
+package org.lucee;
 
 import java.io.File;
 

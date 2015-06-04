@@ -4,7 +4,7 @@
  *
  * All credit to the original author (https://github.com/denuno)
  */
-package org.locee;
+package org.lucee;
 
 import java.io.File;
 import java.util.HashMap;

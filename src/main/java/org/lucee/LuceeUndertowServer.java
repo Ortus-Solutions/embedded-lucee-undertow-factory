@@ -1,4 +1,4 @@
-package org.locee;
+package org.lucee;
 
 import io.undertow.Undertow;
 import io.undertow.Undertow.Builder;
@@ -13,7 +13,7 @@ import static io.undertow.servlet.Servlets.defaultContainer;
 import javax.servlet.ServletException;
 import java.io.IOException;
 
-public class LoceeUndertowServer {
+public class LuceeUndertowServer {
 	private Undertow          undertowServer;
 	private DeploymentManager deploymentManager;
 	private int               port;
@@ -23,7 +23,7 @@ public class LoceeUndertowServer {
 	private String            webXmlPath;
 	private String            webInfPath;
 
-	public LoceeUndertowServer( int port, String host, String libDirs, String webroot, String webXmlPath, String webInfPath ) {
+	public LuceeUndertowServer( int port, String host, String libDirs, String webroot, String webXmlPath, String webInfPath ) {
 		this.port        = port;
 		this.host        = host;
 		this.libDirs     = libDirs;
@@ -33,7 +33,7 @@ public class LoceeUndertowServer {
 	}
 
 	public void start() throws ServletException, IOException {
-		DeploymentInfo servletInfo = LoceeServletBuilder.build( libDirs, webroot, webXmlPath, webInfPath );
+		DeploymentInfo servletInfo = LuceeServletBuilder.build( libDirs, webroot, webXmlPath, webInfPath );
 
 		deploymentManager = defaultContainer().addDeployment( servletInfo );
 		deploymentManager.deploy();

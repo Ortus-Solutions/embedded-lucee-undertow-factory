@@ -1,4 +1,4 @@
-package org.locee;
+package org.lucee;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import io.undertow.servlet.api.ServletInfo;
 import io.undertow.server.handlers.resource.FileResourceManager;
 import static io.undertow.servlet.Servlets.deployment;
 
-public class LoceeServletBuilder {
+public class LuceeServletBuilder {
 	public static DeploymentInfo build( String libDirs, String webroot, String webXmlPath, String webInfPath ) throws IOException {
 		DeploymentInfo servletInfo = deployment();
 		URLClassLoader classLoader = buildClassLoader( libDirs );

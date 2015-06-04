@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.locee</groupId>
-	<artifactId>locee-undertow-server-factory</artifactId>
+	<groupId>org.lucee</groupId>
+	<artifactId>lucee-undertow-server-factory</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0.0</version>
-	<name>Locee Undertow Server Factory</name>
+	<name>Lucee Undertow Server Factory</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -65,7 +65,7 @@
 	            <artifactId>maven-antrun-plugin</artifactId>
 	            <configuration>
 	                <tasks>
-	                    <copy file="target/locee-undertow-server-factory-1.0.0-jar-with-dependencies.jar" tofile="artifacts/embedded-lucee-undertow-factory-1.0.0.jar" />
+	                    <copy file="target/lucee-undertow-server-factory-1.0.0-jar-with-dependencies.jar" tofile="artifacts/embedded-lucee-undertow-factory-1.0.0.jar" />
 	                </tasks>
 	            </configuration>
 	            <executions>

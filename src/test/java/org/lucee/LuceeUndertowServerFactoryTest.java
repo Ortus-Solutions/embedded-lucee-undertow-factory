@@ -1,17 +1,17 @@
-package org.locee;
+package org.lucee;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class LoceeUndertowServerFactoryTest extends TestCase {
+public class LuceeUndertowServerFactoryTest extends TestCase {
 
-    public LoceeUndertowServerFactoryTest( String testName ) {
+    public LuceeUndertowServerFactoryTest( String testName ) {
         super( testName );
     }
 
     public static Test suite() {
-        return new TestSuite( LoceeUndertowServerFactoryTest.class );
+        return new TestSuite( LuceeUndertowServerFactoryTest.class );
     }
 
     public void testUndertowServerFactory() {

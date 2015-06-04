@@ -1,6 +1,6 @@
 # Embedded Lucee Undertow Server
 
-[![Build Status](https://travis-ci.org/dominicwatson/embedded-lucee-undertow-server.svg?branch=master "Master")](https://travis-ci.org/pixl8/Preside-CMS)
+[![Build Status](https://travis-ci.org/DominicWatson/embedded-lucee-undertow-factory.svg?branch=master)](https://travis-ci.org/DominicWatson/embedded-lucee-undertow-factory)
 
 Java library to provide an easy interface to building an embedded Undertow servlet container with a deployed Lucee application. Usage:
 
